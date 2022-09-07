@@ -1,0 +1,43 @@
+.linkedin-logo {
+    color: rgb(14, 107, 200);
+    font-size: 40px !important;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 18px;
+    color: gray;
+    background-color: #eef3f8;
+    width: 16vw;
+}
+
+.header-search>input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header-right {
+    display: flex;
+}
